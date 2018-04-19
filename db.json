@@ -1,14 +1,38 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"posts": [{
+			"id": 1,
+			"title": "Lane Alert data 1"
+		},
+		{
+			"id": 2,
+			"title": "Lane Alert data 2"
+		},
+		{
+			"id": 3,
+			"title": "Lane Alert data 3"
+		}
+	],
+	"comments": [{
+			"id": 1,
+			"body": "Lane Alerts are AWESOME!",
+			"postId": 1
+		},
+		{
+			"id": 2,
+			"body": "How did I ever live without Lane Alerts?",
+			"postId": 1
+		}
+	],
+	"profile": {
+		"name": "pamkenyon"
+	},
+	"totalLaneAlerts": {
+		"count": "90000"
+	},
+	"laneAlertsLastMonth": {
+		"count": "7500"
+	},
+	"laneAlertsLastWeek": {
+		"count": "1875"
+	}
 }
